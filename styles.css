@@ -5,20 +5,21 @@ body {
 	text-align: center;
 }
 
-.button {
+.container {
 	color: inherit;
-	font-size: 36px;
+	font-size: 72px;
 	text-decoration: none;
 	padding: 0 20px;
 }
 
-.stopwatch {
-	font-size: 72px;
-	margin: 50px;
+button {
+    background-color: Transparent;
+    background-repeat:no-repeat;
+    border: none;
+    cursor:pointer;
+    overflow: hidden;
+    outline:none;
+	font-size: 36px;
+	color: inherit;
+	padding-bottom: 20px;
 }
-
-.results {
-	list-style: none;
-	padding: 0;
-}
-
